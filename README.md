@@ -1,6 +1,10 @@
 # AirBnB Clone Console Project
-done by Mengistu Messele
+done by Mengistu Getie Messele
 
 # Usage
-- python cli.py
-- interact with the command line interface
+
+### Linux
+- run ```python3 cli.py ``` on the terminal
+- new console window will be opened 
+- type ```help``` to get help from the prompt (see the example image below)
+![Example](example1.PNG) 

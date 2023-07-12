@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from user import User
+from models.user import User
 
 import sys
 import cmd
