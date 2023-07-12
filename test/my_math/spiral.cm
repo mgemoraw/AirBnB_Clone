@@ -1,0 +1,26 @@
+position
+heading
+reset
+circle 20
+right 30
+circle 40
+right 30
+circle 80
+right 100
+circle 100
+forward 90
+up 80
+left 80
+left 80
+left 80
+square 88
+rectangle 80 49
+circle 3
+circle 33
+circle 22
+circle 15
+circle 44
+circle 5
+circle 10
+top 33
+bye
