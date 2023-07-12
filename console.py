@@ -1,6 +1,6 @@
 #!/usr/bin/python3
+"""Command Line Interface"""
 from models.user import User
-
 import sys
 import cmd
 import os
@@ -9,6 +9,7 @@ import os
 class CommandLine(cmd.Cmd):
     intro = "Welcom to AirBnB Console App"
     prompt = "(hbnb) "
+
     def do_user(self, arg):
         "creates user class"
         user = User()
@@ -21,9 +22,11 @@ class CommandLine(cmd.Cmd):
     def do_quit(self, arg):
         """ >>> quit to exit"""
         sys.exit()
-    def do_EOF(self,arg):
+
+    def do_EOF(self, arg):
         """End of File"""
         pass
+
 
 if __name__ == "__main__":
     CommandLine().cmdloop()
