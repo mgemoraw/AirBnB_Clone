@@ -13,7 +13,6 @@ class CommandLine(cmd.Cmd):
         user = User()
         print(user.id)
 
-
     def help_user(self, arg):
         print("Help of user")
 
