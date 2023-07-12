@@ -10,11 +10,9 @@ class CommandLine(cmd.Cmd):
     intro = "Welcom to AirBnB Console App"
     prompt = "(hbnb) "
     def do_user(self, arg):
+        "creates user class"
         user = User()
         print(user.id)
-
-    def help_user(self, arg):
-        print("Help of user")
 
     def do_exit(self, arg):
         """ >>> exit to exit"""
