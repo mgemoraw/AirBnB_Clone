@@ -9,8 +9,6 @@ import os
 class CommandLine(cmd.Cmd):
     def do_user(self, arg):
         user = User()
-        user.id = 2
-
         print(user.id)
 
 
