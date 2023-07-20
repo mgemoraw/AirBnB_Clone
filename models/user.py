@@ -1,5 +1,6 @@
 """Defines User Class"""
-from .base import BaseModel
+import models
+from .base_model import BaseModel
 
 
 class User(BaseModel):
