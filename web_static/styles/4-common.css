@@ -1,0 +1,19 @@
+body {
+    /* background: white; */
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #484848;
+    font-family: Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    margin: 100px 90px auto;  
+    /* margin top bottom left and right */
+    text-align: center;
+    position: auto;
+    max-width: 1000px;
+    /* width: 70%; */
+}
