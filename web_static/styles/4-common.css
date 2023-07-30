@@ -1,19 +1,21 @@
 body {
-    /* background: white; */
+    background-color: white;
     margin: 0;
     padding: 0;
     font-size: 14px;
     color: #484848;
     font-family: Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     align-items: center;
+    /* min-height: 100vh; */
+    /* display: inline-flex;
+    flex-direction: column; */
 }
 
 .container {
-    background: white;
-    margin: 100px 90px auto;  
-    /* margin top bottom left and right */
+    background-color: white;
+    margin: 30px auto;  
     text-align: center;
-    position: auto;
     max-width: 1000px;
     /* width: 70%; */
+    padding-left: 10px;
 }

@@ -1,28 +1,36 @@
 .places {
-    position: absolute;
-    height: inherit;
+    position: relative;
+    /* height: inherit; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 .places > h1 {
-    display: flex;
-    text-align: left;
-    margin: 0 auto;
+    /* display: flex; */
+    height: 30px;
+    width: 100%;
     font-size: 30px;
+    text-align: left;
+    /* margin: 0 auto; */
+    padding-left: 3%;
 
 }
 
 .places > article {
     width: 390px;
-    height: inherit;
+    /* height: inherit; */
     padding: 20px;
     margin: 20px;
     border: 1px #FF5A5F solid;
     border-radius: 4px;
     display: inline-block;
+    /* font-size: 30px; */
+    text-align: center;
 
 }
 
 .places > h2 {
-    margin: 0 auto;
-    display: inline-block;
+    /* margin: 0 auto; */
+    /* display: inline-block; */
     font-size: 30px;
 }
